@@ -32,6 +32,9 @@
 @import url(../blocks/cover/__text-container/cover__text-container.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__text/cover__text.css);
-@import url(../blocks);
-@import url(../blocks);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link-wrapper/footer__link-wrapper.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
