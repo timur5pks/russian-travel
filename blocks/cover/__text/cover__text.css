@@ -1,0 +1,14 @@
+.cover__text {
+  max-width: 288px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media (min-width: 768px) {
+  .cover__text {
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

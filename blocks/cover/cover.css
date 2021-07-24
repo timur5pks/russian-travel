@@ -1,0 +1,21 @@
+.cover {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    width: 1024px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .cover {
+    width: calc(100% - 96px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+  }
+}
