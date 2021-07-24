@@ -1,0 +1,22 @@
+.place__paragraphs {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+@media (min-width:320px) {
+  .place__paragraphs {
+    width: 288px;
+  }
+}
+
+@media (min-width:336px) {
+  .place__paragraphs {
+    width: calc(100% - 48px);
+  }
+}
+
+@media (min-width: 768px) {
+  .place__paragraphs {
+    width: 100%;
+  }
+}

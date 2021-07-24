@@ -1,0 +1,19 @@
+.places {
+  margin-bottom: 66px;
+  display: grid;
+  row-gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .places {
+  row-gap: 72px;
+  margin-bottom: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+  row-gap: 80px;
+  margin-bottom: 92px;
+  }
+}

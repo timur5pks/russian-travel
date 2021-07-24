@@ -1,0 +1,25 @@
+.place__image {
+  display: block;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+@media (min-width:320px) {
+  .place__image {
+    width: 320px;
+    margin: 0 auto 32px;
+  }
+}
+
+@media (min-width:368px) {
+  .place__image {
+    width: calc(100% - 48px)
+  }
+}
+
+@media (min-width: 768px) {
+  .place__image {
+    width: 100%;
+    margin: 0;
+  }
+}

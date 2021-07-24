@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+  .place {
+    width: 720px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 28px;
+  }
+}
+
+@media (min-width: 816px) {
+  .place {
+    width: calc(100% - 96px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    width: 928px;
+  }
+}
+
+@media (min-width: 1224px) {
+  .place {
+    width: calc(100% - 296px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .place {
+    width: 984px;
+  }
+}
